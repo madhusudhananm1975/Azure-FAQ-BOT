@@ -3,15 +3,15 @@
   position: relative;
   overflow: hidden;
   width: 60%;
-  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  padding-top: 75%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
   position: absolute;
-  top: 5;
-  left: 5;
-  bottom: 5;
+  top: 0;
+  left: 0;
+  bottom: 0;
   right: 0;
   width: 75%;
   height: 80%;
